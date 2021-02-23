@@ -4,7 +4,7 @@
 <h3>tstisnumeric.py</h3>
 <div>
 <p>  
-  In Python, 10 % 2 results in 0. This operations verifies if the residue of operation 10/2.
+  In Python, 10 % 2 results in 0. This operations verifies if the residue of 10/2.
     10.5 % 2 results in 0.5.
 </p>
 <br>
