@@ -10,11 +10,13 @@
 <br>
 <p>
   type(10 % 2) results in int
+  <br>
   type(10.5 % 2) results in float
 </p>
 </br>
 <p>
   if( type(10 % 2) == int ): print("Its an integer")
+  <br>
   if( type(10.5 % 2) == float ): print("Its a float")
 </p>
   
