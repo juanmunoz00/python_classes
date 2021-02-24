@@ -1,4 +1,5 @@
 ##Usando Python 2.7
+
 ##Definicion de listas
 productos = ["np001", "np002", "np003", "np004"]
 resultados_de_pruebas_temp = [30, 28.4, 40, 25]
