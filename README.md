@@ -1,5 +1,5 @@
 # python_classes
-<h1>Examples repository for the python courses I teach.</h1>
+<h1>Examples repository for the python courses I teach. Python version used: 2.7</h1>
 <h2>Validate an input</h2>
 <h3>tstisnumeric.py</h3>
 <div>
