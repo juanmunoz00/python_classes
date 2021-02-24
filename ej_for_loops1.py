@@ -43,7 +43,8 @@ if( opcion == 2 ):
         ##Iterar una lista
         numeros_aleatroios = []
         for i in range(10):
-            num_aleatorio = random.uniform(0.0, 100.0)
+            num_aleatorio = random.uniform(0.0, 100.0) ##Decimales
+            ##num_aleatorio = random.randint(0,9) """ Enteros """
             numeros_aleatroios.append(num_aleatorio)
         
         for j in numeros_aleatroios:
