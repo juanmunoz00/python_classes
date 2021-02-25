@@ -1,7 +1,7 @@
 import random
 
 print('Curso: Python para no-programadores')
-print('Autor: Juan Munoz') 
+print('Autor: Juan "Juancho" Munoz') 
 print('https://github.com/juanmunoz00/python_classes')
 print('*********************************************')
 print('******** ESTRUCTURAS DE CONTROL *************')
