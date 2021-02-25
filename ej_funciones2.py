@@ -1,5 +1,18 @@
 import random
 
+"""
+Tambies asi se genera una lista de numeros aleatorios enteros
+res = [random.randrange(1, 50, 1) for i in range(7)]
+"""
+
+print('Curso: Python para no-programadores')
+print('Autor: Juan Munoz') 
+print('https://github.com/juanmunoz00/python_classes')
+print('*********************************************')
+print('******** ESTRUCTURAS DE CONTROL *************')
+print('******** Funciones   ************************') 
+print('*********************************************')
+
 def GeneraNumeroAleatorio(int_o_float, limite_inf, limite_sup):
   if( int_o_float == "int" ):
     numero_aleatorio = random.randint(limite_inf, limite_sup)
