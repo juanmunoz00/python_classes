@@ -8,7 +8,7 @@ print('******** ESTRUCTURAS DE CONTROL *************')
 print('******** Ciclos iterativos for y while   ****') 
 print('*********************************************')
 opcion = 2
-subOpcion = 5
+subOpcion = 6
 if( opcion == 1 ):
     print("While loop")
     #Ciclo while iterara mientras se cumpla una condicion
@@ -49,3 +49,12 @@ if( opcion == 2 ):
         
         for j in numeros_aleatroios:
             print(j)
+
+    if( subOpcion == 6 ):
+        ##Esta es la estructura mas comun de un menu
+        i = 1
+        while ( i == 1 ):
+            opcion = raw_input("Selecciona tu opcion. Teclea 4 para salir: ")
+            if( opcion == "4" ):
+                print("See you!!")
+                break
