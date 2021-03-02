@@ -19,6 +19,8 @@ except:
     print("No se creo o no existe el archivo")
     quit()
 
+## finally:   f.close()
+
 """
 Try it!
 longStr = (r"C:\Users\jrwaller\Documents\Automated Eve\NewTest.txt")
