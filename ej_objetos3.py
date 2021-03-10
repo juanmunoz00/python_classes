@@ -1,16 +1,16 @@
 class NP:
-    ##Constantes en la clase
+    ##Class constants
     TEMP_LIMITE_SUP = 200
     TEMP_LIMITE_INF = 50
 
-    ##Definicion de los miembros(atributos) de la clase
+    ##Class properties definition
     def __init__(self, np, temp, rH, lista):
         self.np = np
         self.temp = temp
         self.rH = rH
         self.lista = lista
 
-    ## Metodos
+    ## Methods
     def Compara_Con_Limites(self):
         if( (self.temp < self.TEMP_LIMITE_INF) ):
             print("La tempreatura esta abajo del limite")
@@ -23,9 +23,11 @@ class NP:
         print(self.lista)
         print(lista2)
 
-##Instanciacion de la clase
+
 lista1 = ['uno', 'dos', 'tr3s']
-np1 = NP('np001', 100, 50, lista1)
+##np1 is the class instance (copy)
+np1 = NP('np001', 100, 50, lista1) 
+##Display the class properties
 print (str(np1.TEMP_LIMITE_SUP))
 print (str(np1.TEMP_LIMITE_INF))
 print(np1.lista)
@@ -33,7 +35,9 @@ print (str(np1.np))
 print (str(np1.temp))
 print (str(np1.rH))
 
+##The class method
 np1.Compara_Con_Limites()
 
+##A class with a value *external* to the class but taken as parameter.
 lista2 = ['one', 'two', 'three']
 np1.Listas(lista2)
